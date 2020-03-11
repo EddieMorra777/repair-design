@@ -563,8 +563,8 @@ body {
 
 .hero__text {
   font-size: 1.57rem;
-  max-width: 500px;
   line-height: 131%;
+  max-width: 500px;
   margin: 0;
   margin-bottom: 3rem;
 }
