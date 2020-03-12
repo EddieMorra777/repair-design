@@ -440,11 +440,11 @@ template {
 }
 
 html {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 body {
-  font-family: sens-serif;
+  font-family: 'Futura Book', sens-serif;
   font-size: 1rem;
 }
 
