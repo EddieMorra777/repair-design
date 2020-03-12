@@ -22,7 +22,7 @@ function serveSass() {
   return src("./scss/**/*.scss", "./sass/**/*.scss")
       .pipe(sass())
       .pipe(autoprefixer({
-          cascade: false
+        cascade: false
       }))
       .pipe(dest("./css"))
       .pipe(browserSync.stream());
