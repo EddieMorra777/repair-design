@@ -741,7 +741,7 @@ img {
   padding: 1.214rem 2.6rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1230px) {
   html {
     font-size: 12px;
   }
@@ -759,6 +759,9 @@ img {
   }
   .hero__content {
     margin-left: 0;
+  }
+  .card__title {
+    min-height: 2.9rem;
   }
 }
 
