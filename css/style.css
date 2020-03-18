@@ -1090,5 +1090,9 @@ img {
   .hero__scroll-down {
     display: none;
   }
+  .types-dark {
+    background-color: #131313;
+    color: #fff;
+  }
 }
 /*# sourceMappingURL=style.css.map */
