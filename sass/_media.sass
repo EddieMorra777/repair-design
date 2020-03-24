@@ -15,6 +15,15 @@
   .card
       &__title
         min-height: 2.9rem
+@media screen and ( max-width: 900px )
+  .row
+    flex-direction: column
+    .col-50
+      width: 100%
+      &--two
+        margin-top: 3rem
+  .swiper-slider-image
+    width: 100%
 @media screen and ( max-width: 760px )
   .row
     flex-direction: column
@@ -53,11 +62,6 @@
       display: block
       min-width: 22.86rem
       margin-bottom: 1.85rem
-@media screen and ( max-width: 520px )
-  .hero
-    &__scroll-down
-      display: none
-  .types-dark
-    background-color: $dark
-    color: $light
+
+
 

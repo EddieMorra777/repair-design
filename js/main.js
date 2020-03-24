@@ -72,7 +72,7 @@ $(document).ready(function () {
       userPhone: "Телефон обязателен",
       userEmail: {
         required: "Обязательно укажите email",
-        email: "Введите в формате name@domain.com"
+        email: "Укажите верный email"
       }
     }
   });
