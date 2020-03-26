@@ -1128,6 +1128,27 @@ img {
   padding: 4.285rem 0;
 }
 
+.footer__map {
+  width: 66.071rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.footer__icon {
+  margin: auto;
+  max-width: 33.55rem;
+  text-align: center;
+  margin-bottom: 2.91rem;
+}
+
+.footer__img {
+  max-width: 100%;
+}
+
+.footer__img--margin {
+  margin-right: 1rem;
+}
+
 .modal {
   opacity: 0;
   visibility: hidden;
