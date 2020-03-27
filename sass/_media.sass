@@ -15,6 +15,14 @@
   .card
       &__title
         min-height: 2.9rem
+      &__pricetag
+        font-size: 1.12rem
+  .types 
+      &__title
+        min-height: 2.9rem
+      &__pricetag
+        font-size: 1.12rem
+ 
 @media screen and ( max-width: 900px )
   .row
     flex-direction: column
@@ -40,6 +48,21 @@
       color: $light
     &__card
       margin-bottom: 5.7rem
+  .control
+    &__text 
+  font-size: 1.14rem
+  .footer 
+    padding: 0
+    &__wrap--responsive 
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+    &__menu 
+      display: none
+    &__wrap 
+      margin: 0 auto
+    &__container 
+      width: 100%
 @media screen and ( max-width: 570px )
   .contacts
     &__phone
@@ -62,6 +85,57 @@
       display: block
       min-width: 22.86rem
       margin-bottom: 1.85rem
+  .control 
+    padding-bottom: 0
+    &__input-group 
+      flex-basis: 100%
+      margin-bottom: 5rem
+    &__policy 
+      margin-top: -4rem
+      &__label 
+        justify-content:start
+    &__button 
+      width: 80%
+      margin: auto
+      margin-top: 5rem
+      order: 4
+  .footer
+    &__button 
+      width: 80%
+      margin: auto
+    &__title
+      &__map 
+        max-width: 25.22rem
+    &__input-group 
+        flex-basis: 100%
+        margin-bottom: 5rem
+    &__policy 
+        margin-top: -3.5rem
+        &__label 
+          justify-content: start
+@media screen and ( max-width: 570px )
+  .footer
+    &__button 
+      width: 100%
+      margin: auto
+    &__map 
+      min-width: 338px
+      min-height: 223px
+      max-height: 223px
+@media screen and ( max-height:410px ) 
+  .modal
+    &__input-group 
+  margin-bottom: 1.426rem
+@media screen and ( max-height:370px ) 
+  .modal
+    &__input-group 
+      margin-bottom: 0
+@media screen and ( max-height:370px ) 
+  .modal
+    &__title 
+      margin-bottom: 0
+
+
 
 
 

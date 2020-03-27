@@ -572,6 +572,7 @@ img {
 
 .section-title__heading {
   font-family: 'Yeseva One', cursive;
+  font-weight: normal;
   text-transform: uppercase;
   line-height: 138.6%;
 }
@@ -1155,6 +1156,7 @@ img {
   position: fixed;
   z-index: 199;
   left: 0;
+  top: 0;
   bottom: 0;
   right: 0;
   width: 100%;
@@ -1260,6 +1262,15 @@ img {
   .card__title {
     min-height: 2.9rem;
   }
+  .card__pricetag {
+    font-size: 1.12rem;
+  }
+  .types__title {
+    min-height: 2.9rem;
+  }
+  .types__pricetag {
+    font-size: 1.12rem;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -1305,6 +1316,29 @@ img {
   .design__card {
     margin-bottom: 5.7rem;
   }
+  font-size: 1.14rem;
+  .footer {
+    padding: 0;
+  }
+  .footer__wrap--responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__menu {
+    display: none;
+  }
+  .footer__wrap {
+    margin: 0 auto;
+  }
+  .footer__container {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -1333,6 +1367,73 @@ img {
     display: block;
     min-width: 22.86rem;
     margin-bottom: 1.85rem;
+  }
+  .control {
+    padding-bottom: 0;
+  }
+  .control__input-group {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 5rem;
+  }
+  .control__policy {
+    margin-top: -4rem;
+  }
+  .control__button {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .footer__button {
+    width: 80%;
+    margin: auto;
+  }
+  .footer__title__map {
+    max-width: 25.22rem;
+  }
+  .footer__input-group {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 5rem;
+  }
+  .footer__policy {
+    margin-top: -3.5rem;
+  }
+  .footer__policy__label {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer__button {
+    width: 100%;
+    margin: auto;
+  }
+  .footer__map {
+    min-width: 338px;
+    min-height: 223px;
+    max-height: 223px;
+  }
+}
+
+@media screen and (max-height: 410px) {
+  margin-bottom: 1.426rem;
+}
+
+@media screen and (max-height: 370px) {
+  .modal__input-group {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-height: 370px) {
+  .modal__title {
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
